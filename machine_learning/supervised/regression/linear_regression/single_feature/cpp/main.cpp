@@ -7,7 +7,7 @@ double linearFunc(double x) { return 2.0 * x + 10.0; }
 
 int main() {
   Dataset myData;
-  myData.generate(10, linearFunc, 1);
+  myData.generate(10, linearFunc, 0);
   myData.display();
   std::vector<Datapoint> Dataset = myData.get_data();
 
